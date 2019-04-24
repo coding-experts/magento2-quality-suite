@@ -1,0 +1,23 @@
+{
+    "name": "codingexperts/magento2-quality-suite",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Coding Experts B.V.",
+        "email": "info@codingexperts.tech"
+    }],
+    "description": "Code quality suite for Magento2",
+    "homepage": "https://www.codingexperts.tech",
+    "keywords": [
+        "php",
+        "phpcs",
+        "phpmd",
+        "magento2"
+    ],
+    "require": {
+        "phpunit/phpunit": "~6.2",
+        "pdepend/pdepend": "~2.1",
+        "codingexperts/magento2-quality-phpmd": "~1.0",
+        "codingexperts/magento2-quality-phpcs": "~1.0"
+    }
+}
